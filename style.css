@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+	body{
+	background-color: rgb(20, 20, 20);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
+	}
+	.wrapper ul li a{
+		text-decoration: none;
+		color: white;
+	}
+	.wrapper ul a .li h1{
+		position: relative;
+		top: -25px;
+	}
+	.wrapper{
+	width: 100%; 
+	margin: 0 auto;
+	position: fixed;
+	}
+	.wrapper ul{
+	list-style: none;
+	}
+	.wrapper ul li{
+		font-family: algerian;
+	}
+	.wrapper ul li {
+	background:rgb(54, 52, 52);
+	width: 14.285%;
+	height: 80px;
+	line-height: 80px;
+	position:sticky;
+	text-align: center;
+	float: left;
+	color: white;
+	font-size: auto;
+	font-family: poppins;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+	.wrapper ul .l li{
+	background: rgb(54, 52, 52);
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	font-size: auto;
+	position: relative;
+	font-family: poppins;
+	text-transform: uppercase;
+	font-weight: bold;
+	} 
+	.wrapper ul .u li{
+		position: relative;
+	background: rgb(54, 52, 52);
+	width: 250%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	font-size: auto;
+	font-family: poppins;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+	.wrapper ul .menu li:hover{
+	background:rgba(197, 194, 194, 0.966);
+	color: black;
+	}
+	.wrapper ul .menu li:hover > .d{
+		border: 5px solid black;
+		border-width: 0px 3px 3px 0px;
+		display: inline-block;
+	}
+	.wrapper ul .menu li .d{
+		position: relative;
+		top: -3px;
+	}
+	.wrapper ul .menu li:hover > .r{
+		border: 5px solid black;
+		border-width: 0px 3px 3px 0px;
+		display: inline-block;
+	}
+	.wrapper ul .menu li .r{
+		position: relative;
+		top: -1px;
+	}
+	.li img{
+		font-family: algerian;
+		position: relative;
+		top: 27px;
+	}
+	.r{
+		border: 5px solid white;
+		border-width: 0px 3px 3px 0px;
+		display: inline-block;
+		padding: 3px;
+		transform: rotate(-45deg);
+	}
+	.d{
+		border: 5px solid white;
+		border-width: 0px 3px 3px 0px;
+		display: inline-block;
+		padding: 3px;
+		transform: rotate(45deg);
+	}
+	
+	.wrapper ul ul{
+	display: none;
+	}
+	.wrapper ul li:hover > ul{
+	display: block;
+	}
+	.wrapper ul ul ul{
+	margin-left: 192.5px;
+	top: 0;
+	position: absolute;
+	}
+    .con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+	}
+	.flex:hover{
+		background-color: white;
+        box-shadow: white;
+	}
+	.con a{
+		text-decoration: none;
+		color: white;
+	}
+	.flex img{
+		width: 200px;
+	}
+    .flex{
+        background-color: rgba(255, 255, 255, 0.904);
+        width: 215px;
+        height: 270px;
+		line-height: 30px;
+		font-family: Helvetica;
+        color: black;
+		margin-right: 10px;
+		margin-left: 10px;
+        margin-bottom: 10px;
+		margin-top: 20px;
+		font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px 5px 5px 5px;
+    }
